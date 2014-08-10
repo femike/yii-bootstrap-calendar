@@ -33,6 +33,15 @@ yii >= 1.1.14
 	],
 
 ```
+
+important if you change path protected/extension/yii-bootstrap-calendar to widget set path to assetUrl
+
+```php
+	$this->widget('BootstrapCalendar', [
+		'assetUrl' => Yii::getPathOfAlias('ext.path_to_widget.lib.bootstrap-calendar.assets')
+	]
+```
+
 ### PHP example
 
 ```php

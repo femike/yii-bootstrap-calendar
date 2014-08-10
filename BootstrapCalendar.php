@@ -26,7 +26,7 @@ class BootstrapCalendar extends CWidget
 	{
 		if (!$this->assetUrl)
 			$this->assetUrl = Yii::app()->getAssetManager()->publish(
-				Yii::getPathOfAlias('ext.widgets.lib.bootstrap-calendar.assets')
+				Yii::getPathOfAlias('ext.yii-bootstrap-calendar.lib.bootstrap-calendar.assets')
 			);
 
 		$cli = Yii::app()->getClientScript();
