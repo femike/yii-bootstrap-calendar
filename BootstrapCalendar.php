@@ -17,18 +17,6 @@ class BootstrapCalendar extends CWidget
 		],
 		'next' => [
 			'title' => 'Next >>'
-		],
-		'year' => [
-			'title' => 'Year'
-		],
-		'month' => [
-			'title' => 'Month'
-		],
-		'week' => [
-			'title' => 'Week'
-		],
-		'day' => [
-			'title' => 'Day'
 		]
 	];
 	public $buttonsTime = false;
